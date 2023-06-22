@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*----------------------HEADER--------------------------------------*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+    padding: 10px 10px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+.logo {
+    color: white;
+    font-weight: 600;
+}
+header ul {
+    display: flex;
+    gap:15px;
+    list-style: none;
+    align-items: center;
+}
+header ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+header ul li a:hover {
+    border-width: 2px;
+    border-style: solid;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+/*----------------------MAIN-----------------------------*/
+main .image-container {
+   display: grid;
+   grid-template-rows: 1fr;
+   margin-top: 50px;
+   
+}
+.panel {
+    width: 100%;
+    position: relative;
+    
+}
+.text-overImage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+.text-overImage h1 {
+    line-height: 30px;
+}
+.text-overImage .arrow {
+    width: 10px;
+    height: 10px;
+}
+
+.text-overImage .discover-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    vertical-align: middle;
+    background-color: orange;
+    width: 100px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+/*----------------SERVICE SHORTCUTS------------------------*/
+.service-shortcuts {
+    margin-top: 20px;
+}
+.service-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 15px;
+
+}
+.service-container img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    
+}
+.section {
+    padding-right: 10px;
+    border-right-color: grey;
+    border-right-width: 2px;
+    border-right-style: solid;
+}
+.section .about-product {
+    text-align: justify;
+}
+
+.section button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px ;
+    border-radius: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.section button:hover {
+    background-color: white;
+    color: orange;
+    border-color: orange;
+    border-style: solid;
+}
+
+/*-----------------------TESTEMONY-------------------------*/
+.testemonyContainer {
+    margin-top: 25px;
+}
+.sectionOne {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.sectionOne img {
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+/*------------------------FOOTER-------------------------*/
+footer {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.footer-container {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+footer h3 {
+    text-align: center;
+}
+.footer-container img {
+    width: 100%;
+}
