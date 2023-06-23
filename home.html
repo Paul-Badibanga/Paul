@@ -117,17 +117,49 @@
 
         <!------------------------FOOTER------------------------->
         <footer>
-            <h3>Get in touch with us:</h3>
+            <h3 class="intouch">Get in touch with us:</h3>
             <div class="footer-container">
-                <div class="network">
-                    <div><img src="IMAGES/facebook.png"></div>
+                <div class="serviceList">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="#">Electricity</a></li>
+                        <li><a href="#">Plumbing</a></li>
+                        <li><a href="#">Welding</a></li>
+                        <li><a href="#">Computer and Smartphone maintenance</a></li>
+                        <li><a href="#">Web developpement</a></li>
+                    </ul>
                 </div>
-                <div class="network">
-                    <div><img src="IMAGES/gmail.png"></div>
+
+                <div class="Contacts">
+                    <h3>Contacts</h3>
+                    <p>+27 xx xxx xx xx</p>
+                    <div class="network">
+                        <div>
+                            <img src="IMAGES/gmail.png">
+                            <p>paultech@gmail.com</p>
+                        </div>
+                        <div>
+                            <img src="IMAGES/facebook.png">
+                            <p>facebook</p>
+                        </div>
+                        <div>
+                            <img src="IMAGES/whatsapp.png">
+                            <p>whatsapp</p>
+                        </div>
+
+                    </div>
                 </div>
-                <div class="network">
-                    <div><img src="IMAGES/whatsapp.png"></div>
+
+                <div class="form">
+                    <h3>Send us a message</h3>
+                    <form method="post">
+                        <input type="text" placeholder="Enter your Name" id="name" class="firstinput" autocomplete="off"><br>
+                        <input type="text" placeholder="Enter your Email" id="Email" autocomplete="off"><br>
+                        <textarea placeholder="Type Your Message" id="message" cols="30" rows="10"></textarea><br>
+                        <button id="btn">Send</button>
+                    </form>
                 </div>
+                
             </div>
         </footer>
     </main>
