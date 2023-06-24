@@ -25,6 +25,7 @@ header ul {
     gap:15px;
     list-style: none;
     align-items: center;
+    white-space: nowrap;
 }
 header ul li a {
     text-decoration: none;
@@ -32,12 +33,24 @@ header ul li a {
     text-transform: uppercase;
 }
 header ul li a:hover {
-    border-width: 2px;
-    border-style: solid;
+    background-color: white;
+    color: orange;
     padding: 5px 5px;
     border-radius: 5px;
 }
+
+.menu {
+    flex-basis: 25px;
+    display: none;
+}
+.menu img {
+    width: 100%;
+    height: 25px;
+}
 /*----------------------MAIN-----------------------------*/
+main {
+    margin-top: 50px;
+}
 main .image-container {
    display: grid;
    grid-template-rows: 1fr;
@@ -59,7 +72,9 @@ main .image-container {
     text-align: center;
     color: white;
     margin-top: 100px;
+    top: 10;
 }
+
 .text-overImage h1 {
     line-height: 30px;
 }
@@ -80,17 +95,41 @@ main .image-container {
     border-radius: 15px;
     margin-top: 20px;
     cursor: pointer;
+    transition: transform 2s;
+}
+.discover-btn:hover .arrow {
+    transform: translateX(10px);
 }
 /*----------------SERVICE SHORTCUTS------------------------*/
 .service-shortcuts {
-    margin-top: 20px;
+    margin: 20px 10px 0px 10px;
+    background-color:  rgba(238, 234, 234, 0.959);
+    border-radius: 10px;
 }
+.service-shortcuts h2 {
+    padding-top : 10px;
+    padding-left: 15px;
+}
+
+/*.scrollBtn{
+    width: 20px;
+}
+.scrollBtn img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}*/
 .service-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    min-width: 500px;
     gap: 10px;
     margin-top: 15px;
-
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px 5px 20px 5px;
+}
+.service-container::-webkit-scrollbar {
+    width: 0;
 }
 .service-container img {
     width: 100%;
@@ -127,18 +166,30 @@ main .image-container {
 
 /*-----------------------TESTEMONY-------------------------*/
 .testemonyContainer {
-    margin-top: 25px;
+    margin: 25px 10px;
+    background-color: rgba(238, 234, 234, 0.959);
+    border-radius: 10px;
 }
 .sectionOne {
-    display: grid;
-    grid-template-columns: 100px 1fr;
-    gap: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.testemonyContainer h2 {
+    padding-top : 10px;
+    padding-left: 15px;
+}
+.testemonyContainer .grid {
+    padding: 20px 0px 20px 15px;
+    display: flex;
+    gap: 15px;
     align-items: center;
-    margin-bottom: 10px;
 }
 
 .sectionOne img {
-    width: 100%;
+    width: 100px;
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
@@ -147,8 +198,7 @@ main .image-container {
 
 /*------------------------FOOTER-------------------------*/
 footer {
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin: 30px 10px 20px;
     background-color: rgba(238, 234, 234, 0.959);
     border-radius: 10px;
 }
@@ -160,8 +210,20 @@ footer .footer-container {
     display: flex;
     justify-content: space-between;
     padding: 20px 15px;
+    flex-wrap: wrap;
 }
-.footer-container .serviceList ul {
+
+.footer-container .serviceList {
+    flex-basis: 20%;
+}
+.Contacts {
+    flex-basis: 20%;
+}
+.form {
+    flex-basis: 30%;
+}
+
+.footer-container .serviceList ul { 
     list-style: none;
 }
 
@@ -170,6 +232,7 @@ footer .footer-container {
     font-size: 16px;
     margin-bottom: 5px;
 }
+
 .Contacts .network div {
     display: flex;
     align-items: center;
@@ -186,6 +249,13 @@ footer .footer-container {
 .footer-container .serviceList ul li a {
     text-decoration: none;
     color: black;
+}
+
+.adress {
+    background-color: rgba(46, 236, 46, 0.288);
+    flex-basis: 20%;
+    padding: 10px;
+    text-align: justify;
 }
 
 .form input, textarea {
@@ -206,6 +276,11 @@ footer .footer-container {
     font-family: 'Courier New';
     border-color: none;
 }
+
+.form textarea, .firstinput, input:focus{
+    outline: none;
+}
+
 .form button {
     background-color: orange;
     color: white;
@@ -214,4 +289,22 @@ footer .footer-container {
     border-radius: 15px;
     margin-top: 5px;
     cursor: pointer;
+}
+
+/*-----------------------------MEDIAS QUERIES------------------------------*/
+@media screen and (max-width: 688px){
+    header nav {
+        display: none;
+    }
+    
+    header .menu {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .sectionOne {
+        margin-right: 10px;
+    }
 }
