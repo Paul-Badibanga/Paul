@@ -1,0 +1,43 @@
+.container-Services {
+    margin: 0px;
+    width: 100%;
+}
+
+.services-section {
+    padding: 10px 10px 60px;
+    margin: 10px 10px 20px;
+    background-color: rgb(230, 227, 227);
+    border-radius: 10px;
+    position: relative;
+}
+.section-grid {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.section-grid .image-section img{
+    width: 100%;
+}
+
+.button-div {
+    position: absolute;
+    bottom: 10;
+    left: 40%;
+    right: 40%;
+    z-index: 1;
+    margin-top: 10px;
+}
+.button-div button{
+    background-color: orange;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+.button-div button:hover{
+    background-color:white;
+    color:orange;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+}
