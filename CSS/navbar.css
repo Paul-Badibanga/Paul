@@ -208,7 +208,7 @@ main .image-container {
     border-radius: 10px;
     width: 90%;
     margin: 5%;
-    
+    box-shadow: 0px 3px 4px 3px rgba(0, 0, 0, 0.3);
 }
 .testemonyContainer h2 {
     padding-top : 10px;
