@@ -38,7 +38,13 @@ header ul li a:hover {
     padding: 5px 5px;
     border-radius: 5px;
 }
-
+.home-btn {
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
 .menu {
     flex-basis: 25px;
     display: none;
