@@ -41,3 +41,10 @@
     color:orange;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
 }
+.service-btn {
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
