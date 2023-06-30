@@ -288,6 +288,8 @@ footer .footer-container {
 }
 .Contacts h3, .form h3, .serviceList h3 {
     margin-bottom: 10px;
+    text-align: center;
+    margin-top: 5px;
 }
 
 .footer-container .serviceList ul li a {
@@ -355,7 +357,7 @@ footer .footer-container {
     /*-------------FOOTER---------------------*/
     footer .footer-container {
         display: grid;
-        grid-template-rows: 240px 1fr 1fr;
+        /*grid-template-rows: 240px 1fr 1fr;
         /*align-items: center;*/
         /*justify-content: center;*/
     }
@@ -364,7 +366,6 @@ footer .footer-container {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        
     }
     .Contacts .network {
         width: 96%;
@@ -374,14 +375,13 @@ footer .footer-container {
     .Contacts .network div, .number{
         padding-left: 10%;
     }
-    .Contacts .network .number{
-        padding-top: 3%;
-    }
+    
 
     .form {
         width: 100%;
         text-align: center;
         margin-bottom: 25px;
+        margin-top: 10px;
     }
     
 }
