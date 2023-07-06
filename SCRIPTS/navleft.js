@@ -18,10 +18,10 @@ menuEl.addEventListener('click', (e)=>{
    console.log(active)
    if (active === false){
     navLeft.style.width = "200px"
-    toggleElem.innerHTML = `<img src="${menuLogo.close}" class="js-menu">`
+    //toggleElem.innerHTML = `<img src="${menuLogo.close}" class="js-menu">`
     console.log(toggleElem.innerHTML)
    }else {
     navLeft.style.width = "0px"
-    toggleElem.innerHTML = `<img src="${menuLogo.open}" class="js-menu">`
+    //toggleElem.innerHTML = `<img src="${menuLogo.open}" class="js-menu">`
    }
 })
