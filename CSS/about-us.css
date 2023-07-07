@@ -7,6 +7,9 @@
     margin-left: 10px;
     text-align: center;
 }
+h3 {
+    color: orange;
+}
 .aboutContainer {
     display: flex;
     align-items: flex-start;
