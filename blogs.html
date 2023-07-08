@@ -5,25 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .menu-orange {
-            background-color: orange;
-        }
-        .menu-red {
-            background-color: red;
-        }
+
     </style>
 </head>
 <body>
-    <div class="div">go</div>
+
+    <label for="choices">Make Your Choice</label>
+    <select name="choises" id="services">
+        <option value="electricity">electricity</option>
+        <option value="plumbing">Plumbing</option>
+        <option value="welding">welding</option>
+        <option value="informatics">informatics</option>
+    </select>
 
     <script>
-        let color = document.querySelector(".div");
-        color.addEventListener('click', ()=>{
-            if(color.innerHTML === 'go'){
-                color.innerHTML == 'Stop'
-                console.log(color.innerHTML)
-            }
-        })
+        let select = document.getElementById('services');
+        console.log(select.value)
     </script>
 </body>
 </html>

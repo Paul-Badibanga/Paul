@@ -82,6 +82,27 @@ header ul li a:hover {
     padding: 10px 15px;
     border-radius: 10px;
 }
+
+/*-------------------------selection search bar---------------------------*/
+.selection {
+    height: 30px;
+    width: 250px;
+    padding: 5px 10px;
+    border-color: orange;
+    outline: none;
+    border-radius: 15px;
+    background-color: white;
+    color: orange;
+    text-transform: lowercase;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-top: 20px;
+    
+}
+.title {
+    size: 10px;
+    font-weight: 500;
+}
 /*----------------------MAIN-----------------------------*/
 main {
     margin-top: 50px;
