@@ -2,26 +2,20 @@
 
 let menuEl = document.querySelector('.js-menu')
 let navLeft = document.querySelector('.js-left-nav');
-let toggleElem = document.getElementById('menu')
-console.log(toggleElem.innerHTML)
+let changeImage = document.querySelector('.menu')
 
-/*----------------------menu logo image-toggle---------------------*/
-const menuLogo = {
-    open:'IMAGES/menu.png',
-    close:'IMAGES/cross.png'
-}
-console.log(menuLogo.open)
-toggleElem.innerHTML = `<img src="${menuLogo.close}" class="js-menu">`
-menuEl.addEventListener('click', (e)=>{
-    
-   const active = navLeft.classList.toggle('js-left-nav')
-   console.log(active)
-   if (active === false){
-    navLeft.style.width = "200px"
-    //toggleElem.innerHTML = `<img src="${menuLogo.close}" class="js-menu">`
-    console.log(toggleElem.innerHTML)
-   }else {
-    navLeft.style.width = "0px"
-    //toggleElem.innerHTML = `<img src="${menuLogo.open}" class="js-menu">`
-   }
+
+changeImage.addEventListener('click', ()=>{
+    navLeft.classList.toggle('js-left-nav');
+    console.log(navLeft.classList);
+    if(navLeft.classList.contains('js-left-nav')){
+        console.log('navleft gone')
+        navLeft.style.width = '0px'
+        changeImage.innerHTML = `<img src = "IMAGES/menu.png" class = "js-menu">`
+    }else {
+        console.log('navleft dispo')
+        navLeft.style.width = '200px'
+        changeImage.innerHTML = `<img src = "IMAGES/red-close.png" class = "js-menu">`
+        
+    }
 })
