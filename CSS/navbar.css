@@ -54,7 +54,7 @@ header ul li a:hover {
     height: 25px;
 }
 /*-------------------LEFT NAVIGATION BAR----------------------------*/
-.leftnav {
+#leftnav {
     background-color: orange;
     position: fixed;
     z-index: 99;
@@ -64,10 +64,10 @@ header ul li a:hover {
     width: 0px;
     
 }
-.leftnav nav {
+#leftnav nav {
     padding-left: 10px;
 }
-.leftnav nav ul li, a {
+#leftnav nav ul li, a {
     list-style: none;
     text-decoration: none;
     text-transform: uppercase;
@@ -76,7 +76,7 @@ header ul li a:hover {
     color: white;
     text-align: center;
 }
-.leftnav nav ul li:hover a {
+#leftnav nav ul li:hover a {
     background-color: white;
     color: orange;
     padding: 10px 15px;
