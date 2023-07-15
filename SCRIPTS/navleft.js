@@ -19,3 +19,11 @@ changeImage.addEventListener('click', ()=>{
         
     }
 })
+
+/*---------------------selection option bar--------------------------*/
+let selection = document.getElementById('choice');
+let labelEL = document.getElementsByTagName('label')
+console.log(labelEL.innerHTML);
+selection.addEventListener('click', (e)=>{
+    e.target.value
+})
