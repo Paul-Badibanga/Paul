@@ -10,6 +10,8 @@ console.log(electricityData)
 /*---------------------SERVICES SVAING DATA------------------------*/
 
 /*---------------------solar energy data------------------------*/
+
+
 const Electricity = {
     solarEnergy : `
     <div class="services-section">
@@ -104,5 +106,39 @@ const welding = `
             est molestias.</p>
     </div>
 </div>
+</div>
+`
+const web = `
+<div class="services-section">
+    <h2>web devellopement</h2>
+    <div class="section-grid">
+        <div class="image-section">
+            <img src="IMAGES/web-dev.jpg">
+        </div>
+        <div class="text-section">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Optio sed nisi quasi, nemo voluptatibus nesciunt quibusdam 
+                consequuntur perferendis porro excepturi ab quidem cumque 
+                voluptatum recusandae, saepe accusantium consectetur
+                    est molestias.</p>
+        </div>
+    </div>
+</div>
+
+<div class="services-section">
+    <h2>laptop&smartphones maintenance</h2>
+    <div class="section-grid">
+        <div class="image-section">
+            <img src="IMAGES/iphone-maintenance.jpg">
+        </div>
+        <div class="text-section">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Optio sed nisi quasi, nemo voluptatibus nesciunt quibusdam 
+                consequuntur perferendis porro excepturi ab quidem cumque 
+                voluptatum recusandae, saepe accusantium consectetur
+                    est molestias.</p>
+        </div>
+    </div>
+    <div class="b
 </div>
 `
