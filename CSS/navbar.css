@@ -104,6 +104,7 @@ li div div a:hover {
     background-color: rgba(250, 250, 250, 0.3);
     padding: 5px 3px 5px 3px;
     border-radius: 5px;
+    color: blue;
 }
 
 /*-------------------------selection search bar---------------------------*/
