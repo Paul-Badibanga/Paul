@@ -32,15 +32,6 @@ selection.addEventListener('click', (e)=>{
 let expandIcon = document.querySelector('.expand-down-btn');
 var subList = document.getElementById('sub-list'); 
 
-expandIcon.addEventListener('click', ()=>{
-    
-    subList.classList.toggle('sub-list')
-    if(subList.classList.contains('sub-list')){
-        subList.style.display = 'block'
-        console.log('hi')
-    }
-    else {
-        subList.style.display = 'none'
-        console.log('bye')
-    }
+expandIcon.addEventListener('click', (e)=>{
+    subList.classList.toggle('sub-list');
 })
