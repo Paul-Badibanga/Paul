@@ -1,3 +1,27 @@
+let servicesData = {
+    Electricity: {
+        solarEnergy: '',
+        alternativeCurent: '',
+    },
+    
+    Plumbing: {
+        homePlumbing: '',
+        industrial: '',
+    },
+    Welding: '',
+
+    Informatics : {
+        WebDesigning: '',
+        Office: '',
+        computerMaintenace: '',
+        phonesFixing: '',
+        CcvInstallation: '',
+        Intellitech: ''
+    },
+    BreakLaying: ''
+}
+
+
 const electricityData = [
     {
         name : "Solar Energy",
