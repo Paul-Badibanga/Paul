@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PAULTECH ULTRA</title>
+    <link rel="stylesheet" href="CSS/about-us.css">
     <link rel="stylesheet" href="CSS/navbar.css">
     <link rel="stylesheet" href="CSS/services.css">
-    <link rel="stylesheet" href="CSS/about-us.css">
+
 </head>
 <body>
     <!-------------------------HEADER--------------------------->
@@ -27,13 +28,22 @@
     <!-------------------LEFT NAVIGATION BAR------------------------------>
     <div id="leftnav" class="js-left-nav">
         <nav>
-            <ul>
-                <li><a href="home.html">home</a></li>
-                <li><a href="services.html" class="service-btn">services</a></li>
-                <li><a href="#footer-section">contacts</a></li>
-                <li><a href="about-us.html">about us</a></li>
-                <li><a href="#">news</a></li>
-                <li><a href="#">blogs</a></li>
+             <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li>
+                    <div class="service-btn">SERVICES <img src="IMAGES/expand-button-down.png" class="expand-down-btn"></div>
+                    <div id="sub-list" class="sub-list">
+                        <div><a href="services.html#electricity">Electricity</a></div>
+                        <div><a href="services.html#plumbing">Plumbing</a></div>
+                        <div><a href="services.html#welding">Welding</a></div>
+                        <div><a href="services.html#web-dev">web-developpement</a></div>
+                        <div><a href="#">Break-Laying</a></div>
+                    </div>
+                </li>
+                <li><a href="#footer-section">CONTACT US</a></li>
+                <li><a href="about-us.html">ABOUT US</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">BLOGS</a></li>
             </ul>
         </nav>
     </div>
@@ -151,6 +161,7 @@
     
         </div>
     </footer>
+
     <script src="SCRIPTS/navleft.js"></script>
 </body>
 </html>
