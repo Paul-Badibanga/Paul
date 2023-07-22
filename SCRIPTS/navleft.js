@@ -31,3 +31,64 @@ var subList = document.getElementById('sub-list');
 expandIcon.addEventListener('click', (e)=>{
     subList.classList.toggle('sub-list');
 })
+
+/*-------------------------sub-services---------------------------*/
+const services = {
+    plumbing: {
+        parent:document.querySelector('.plumbing'),
+        child:document.querySelector('.sub-plumb'),
+        plus:document.querySelector('.plumb-plus'),
+    },
+    electricity: {
+        parent:document.querySelector('.electricity'),
+        child:document.querySelector('.sub-elec'),
+        plus:document.querySelector('.elec-plus'),
+    },
+    info: {
+        parent:document.querySelector('.informatics'),
+        child:document.querySelector('.sub-info'),
+        plus:document.querySelector('.info-plus'),
+    },
+    welding: {
+        parent:document.querySelector('.welding'),
+        child:document.querySelector('.sub-welding'),
+        plus:document.querySelector('.welding-plus'),
+    }
+}
+
+console.log(services.electricity.parent)
+services.electricity.parent.addEventListener('click', ()=>{
+    services.electricity.child.classList.toggle('sub-elec');
+    if(services.electricity.child.classList.contains('sub-elec')){
+        services.electricity.plus.innerHTML = '+'
+    }else{
+        services.electricity.plus.innerHTML = '-'
+    }
+})
+
+services.plumbing.parent.addEventListener('click', ()=>{
+    services.plumbing.child.classList.toggle('sub-plumb');
+    if(services.plumbing.child.classList.contains('sub-plumb')){
+        services.plumbing.plus.innerHTML = '+';
+    }else{
+        services.plumbing.plus.innerHTML = '-'
+    }
+})
+
+services.info.parent.addEventListener('click', ()=>{
+    services.info.child.classList.toggle('sub-info');
+    if(services.info.child.classList.contains('sub-info')){
+        services.info.plus.innerHTML = '+';
+    }else{
+        services.info.plus.innerHTML = '-'
+    }
+})
+
+services.welding.parent.addEventListener('click', ()=>{
+    services.welding.child.classList.toggle('sub-welding');
+    if(services.welding.child.classList.contains('sub-welding')){
+        services.welding.plus.innerHTML = '+';
+    }else{
+        services.welding.plus.innerHTML = '-'
+    }
+})

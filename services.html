@@ -14,7 +14,17 @@
         <nav>
             <ul>
                 <li><a href="home.html">home</a></li>
-                <li><a href="#" class="service-btn">services</a></li>
+                <li id="service-btn">
+                    <a href="#" class="service-btn">services</a>
+                    <div class="sub-serv">
+                        <div><a href="#electricity">Electricity</a></div>
+                        <div><a href="#cctv">CCTV installation</a></div>
+                        <div><a href="#plumbing">Plumbing</a></div>
+                        <div><a href="#welding">Welding</a></div>
+                        <div><a href="#web-dev">web-developpement</a></div>
+                        <div><a href="#breakLaying">Break-Laying</a></div>
+                    </div>
+                </li>
                 <li><a href="#footer-section">contacts</a></li>
                 <li><a href="about-us.html">about us</a></li>
                 <li><a href="#">news</a></li>
@@ -23,6 +33,7 @@
         </nav>
         <div class="menu"><img src="IMAGES/menu.png" class="js-menu"></div>
     </header>
+    
     <!-------------------LEFT NAVIGATION BAR------------------------------>
     <div id="leftnav" class="js-left-nav">
         <nav>
@@ -31,11 +42,40 @@
                 <li>
                     <div class="service-btn">SERVICES <img src="IMAGES/expand-button-down.png" class="expand-down-btn"></div>
                     <div id="sub-list" class="sub-list">
-                        <div><a href="#electricity">Electricity</a></div>
+                        <div>
+                            <a href="#electricity" class="electricity">Electricity<p class="elec-plus">+</p></a>
+                            <div class="sub-elec">
+                                <div>Solar Energy</div>
+                                <div>Alternative Energy</div>
+                                <div>Industrial-Energy</div>
+                            </div>
+                        </div>
                         <div><a href="#cctv">CCTV installation</a></div>
-                        <div><a href="#plumbing">Plumbing</a></div>
-                        <div><a href="#welding">Welding</a></div>
-                        <div><a href="#web-dev">web-developpement</a></div>
+                        <div>
+                            <a href="#plumbing" class="plumbing">Plumbing<p class="plumb-plus">+</p></a>
+                            <div class="sub-plumb">
+                                <div>Home plumbing</div>
+                                <div>Industrial-Energy</div>
+                                <div>Pump installation</div>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#welding" class="welding">Welding <p class="welding-plus">+</p></a>
+                            <div class="sub-welding">
+                                <div>Home Welding</div>
+                                <div>Industrial-Welding</div>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#web-dev" class="informatics">Informatics<p class="info-plus">+</p></a>
+                            <div class="sub-info">
+                                <div>Web developpement</div>
+                                <div>Office Services</div>
+                                <div>Computer maintenance</div>
+                                <div>Phones Repairing</div>
+                                <div>AI</div>
+                            </div>
+                        </div>
                         <div><a href="#breakLaying">Break-Laying</a></div>
                     </div>
                 </li>
