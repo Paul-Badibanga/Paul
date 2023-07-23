@@ -31,12 +31,13 @@ header ul {
 header ul li a {
     text-decoration: none;
     color: white;
+    padding: 5px 5px;
     text-transform: uppercase;
+
 }
 header ul li a:hover {
     background-color: white;
     color: orange;
-    padding: 5px 5px;
     border-radius: 5px;
 }
 .home-btn {
