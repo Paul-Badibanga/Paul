@@ -14,7 +14,7 @@ changeImage.addEventListener('click', ()=>{
         changeImage.innerHTML = `<img src = "IMAGES/menu.png" class = "js-menu">`
     }else {
         console.log('navleft dispo')
-        navLeft.style.width = '200px'
+        navLeft.style.width = '220px'
         changeImage.innerHTML = `<img src = "IMAGES/red-close.png" class = "js-menu">`
         
     }

@@ -62,7 +62,7 @@ header ul li a:hover {
     bottom: 0;
     right: 0;
     width: 0px;
-    
+    transition: 0.7s;
 }
 #leftnav nav {
     padding-left: 10px;
@@ -105,6 +105,7 @@ header ul li a:hover {
     border-radius: 10px;
     display: none;
     z-index: 120;
+    transition: 1s;
 }
 #service-btn:hover .sub-serv {
     display: block;
@@ -172,7 +173,7 @@ li div div a:hover {
     size: 10px;
     font-weight: 500;
 }
-/*----------------------MAIN-----------------------------*/
+/*----------------------MAIN----------------------------*/
 main {
     margin-top: 50px;
 }
