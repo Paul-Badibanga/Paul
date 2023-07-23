@@ -60,7 +60,7 @@ header ul li a:hover {
     background-color: orange;
     position: fixed;
     z-index: 99;
-    top: 40px;
+    top: 30px;
     bottom: 0;
     right: 0;
     width: 0px;
