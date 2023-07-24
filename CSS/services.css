@@ -1,3 +1,6 @@
+*{
+    scroll-behavior: smooth;
+}
 .container-Services {
     margin: 0px;
     width: 100%;
