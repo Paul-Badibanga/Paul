@@ -96,6 +96,27 @@ header ul li a:hover {
 }
 .service-btn1 {
     background-color: orange;
+    position: relative;
+    cursor: pointer;
+}
+.service-btn1::after {
+    content: '';
+    border-left: solid white 0px;
+    border-bottom: solid white 2px;
+    border-right: solid white 2px;
+    border-top: solid white 0px;
+    width: 6px;
+    height: 6px;
+    transform: rotate(45deg);
+    margin-left: 5px;
+    margin-bottom: 2.5px
+}
+.service-btn1:hover::after {
+    content: '';
+    border-left: solid white 0px;
+    border-bottom: solid orange 2px;
+    border-right: solid orange 2px;
+    border-top: solid white 0px;
 }
 .service-btn img{
     width: 15px;
@@ -119,11 +140,12 @@ header ul li a:hover {
     z-index: 120;
     transition: 1s;
     border: solid orangered 1px;
+    transition: 1s;
 }
 
-#service-btn:hover .sub-serv {
+/*#service-btn:hover .sub-serv {
     display: block;
-}
+}*/
 
 .sub-serv::before{
     content: '';

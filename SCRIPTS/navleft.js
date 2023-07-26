@@ -92,3 +92,16 @@ services.welding.parent.addEventListener('click', ()=>{
         services.welding.plus.innerHTML = '-'
     }
 })
+
+/*------------------------ONCLICK SERVICE BUTTON----------------------*/
+const service = document.getElementById('service-btn');
+var serviceContainer = document.querySelector('.sub-serv-js');
+service.addEventListener('click', ()=> {
+    const toggle = serviceContainer.classList.toggle('sub-serv-js')
+    console.log(toggle)
+    if (toggle === false) {
+        serviceContainer.style.display = 'block'
+    }else {
+        serviceContainer.style.display = 'none'
+    }
+})
