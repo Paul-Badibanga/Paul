@@ -1,0 +1,42 @@
+main h1 {
+    font-weight: 500;
+    margin-left: 10px;
+}
+.container {
+    background-color: rgb(230, 227, 227);
+    margin: 10px;
+    border-radius: 5px;
+}
+.container .title {
+    color: orange;
+    padding: 10px;
+    text-align: center;
+}
+.gridContainer {
+    width: fit-content;
+    display: flex;
+    gap: 10px;
+}
+.container .gridContainer .image {
+    width: 50%;
+    position: relative;
+}
+.container .gridContainer .image .date {
+    position: absolute;
+    top: 0;
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    margin-left: 10px;
+}
+.container .gridContainer .image img {
+    width: 100%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.container .gridContainer .detailsContents {
+    width: 50%;
+    margin: 10px;
+    text-align: justify;
+    padding-right: 10px;
+}
