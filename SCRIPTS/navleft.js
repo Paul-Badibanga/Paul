@@ -7,13 +7,10 @@ let changeImage = document.querySelector('.menu')
 
 changeImage.addEventListener('click', ()=>{
     navLeft.classList.toggle('js-left-nav');
-    console.log(navLeft.classList);
     if(navLeft.classList.contains('js-left-nav')){
-        console.log('navleft gone')
         navLeft.style.width = '0px'
         changeImage.innerHTML = `<img src = "IMAGES/menu.png" class = "js-menu">`
     }else {
-        console.log('navleft dispo')
         navLeft.style.width = '220px'
         changeImage.innerHTML = `<img src = "IMAGES/red-close.png" class = "js-menu">`
         
@@ -98,7 +95,6 @@ var service = document.getElementById('service-btn');
 var serviceContainer = document.querySelector('.sub-serv-js');
 service.addEventListener('click', ()=> {
     const toggle = serviceContainer.classList.toggle('sub-serv-js')
-    console.log(toggle)
     if (toggle === false) {
         serviceContainer.style.display = 'block'
     }else {
