@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.OptionContainer {
+    background-color: rgb(230, 227, 227);
+    margin: 10px;
+    border-radius: 10px;
+}
+.OptionContainer .Grid{
+    margin: 10px;
+}
+.OptionContainer .Grid h2{
+    text-align: center;
+    color: orange;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+.OptionContainer .Grid .image{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.OptionContainer .Grid .image img{
+    width: 100%;
+}
+.OptionContainer .Grid .ContentArea{
+    width: 100%;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.OptionContainer .Grid .ContentArea p{
+    text-align: justify;
+    border-left: solid orange 5px;
+    padding-right: 10px;
+}
