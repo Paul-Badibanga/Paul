@@ -3,23 +3,25 @@ let servicesData = {
         solarEnergy: `
         
         <div class="services-section">
-    <h2>Electricity</h2>
-    <div class="partition">
-    <!--------------------first partion------------------>
-        <h3>Solar Energy</h3>
-        <div class="section-grid">
-            <div class="image-section">
-                <img src="IMAGES/pannel2.jpg">
-            </div>
-            <div class="text-section">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Optio sed nisi quasi, nemo voluptatibus nesciunt quibusdam 
-                    consequuntur perferendis porro excepturi ab quidem cumque 
-                    voluptatum recusandae, saepe accusantium consectetur
-                    est molestias.</p>
+        <h2>Electricity</h2>
+        <div class="partition">
+        <!--------------------first partion------------------>
+            <h3>Solar Energy</h3>
+            <div class="section-grid">
+                <div class="image-section">
+                    <img src="IMAGES/pannel2.jpg">
+                </div>
+                <div class="text-section">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Optio sed nisi quasi, nemo voluptatibus nesciunt quibusdam 
+                        consequuntur perferendis porro excepturi ab quidem cumque 
+                        voluptatum recusandae, saepe accusantium consectetur
+                        est molestias.
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
         `,
         alternativeCurent: `
         <div class="services-section">
@@ -32,11 +34,13 @@ let servicesData = {
                     <img src="IMAGES/circuitBreaker.jpg">
                 </div>
                 <div class="text-section">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Optio sed nisi quasi, nemo voluptatibus nesciunt quibusdam 
                         consequuntur perferendis porro excepturi ab quidem cumque 
                         voluptatum recusandae, saepe accusantium consectetur
-                        est molestias.</p>
+                        est molestias.
+                    </p>
                 </div>
             </div>
         </div>
@@ -47,38 +51,43 @@ let servicesData = {
     Plumbing: {
         homePlumbing: `
         <div class="services-section" id="plumbing">
-            <h2>Plumbing</h2>
-            <h3>Home-Plumbing</h3>
-            <div class="partition">
-            <!--------------------first partion------------------>
-                <div class="section-grid">
-                    <div class="image-section">
-                        <img src="IMAGES/bathroom.jpg">
-                    </div>
-                    <div class="text-section">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Optio sed nisi quasi, nemo voluptatibus nesciunt quibusdam 
-                            consequuntur perferendis porro excepturi ab quidem cumque 
-                            voluptatum recusandae, saepe accusantium consectetur
-                            est molestias.</p>
-                    </div>
+        <h2>Plumbing</h2>
+        <h3>Home-Plumbing</h3>
+        <div class="partition">
+        <!--------------------first partion------------------>
+            <div class="section-grid">
+                <div class="image-section">
+                    <img src="IMAGES/bathroom.jpg">
                 </div>
+                <div class="text-section">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Optio sed nisi quasi, nemo voluptatibus nesciunt quibusdam 
+                        consequuntur perferendis porro excepturi ab quidem cumque 
+                        voluptatum recusandae, saepe accusantium consectetur
+                        est molestias.
+                    </p>
+                </div>
+            </div>
+        </div>
         `,
         industrial: `
         <!--------------------first partion------------------>
-                <h3>Industrial-Plumbing</h3>
-                <div class="section-grid">
-                    <div class="image-section">
-                        <img src="IMAGES/water-resources-2251633.jpg">
-                    </div>
-                    <div class="text-section">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Optio sed nisi quasi, nemo voluptatibus nesciunt quibusdam 
-                            consequuntur perferendis porro excepturi ab quidem cumque 
-                            voluptatum recusandae, saepe accusantium consectetur
-                            est molestias.</p>
-                    </div>
-                </div>
+        <h3>Industrial-Plumbing</h3>
+        <div class="section-grid">
+            <div class="image-section">
+                <img src="IMAGES/water-resources-2251633.jpg">
+            </div>
+            <div class="text-section">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Optio sed nisi quasi, nemo voluptatibus nesciunt quibusdam 
+                    consequuntur perferendis porro excepturi ab quidem cumque 
+                    voluptatum recusandae, saepe accusantium consectetur
+                    est molestias.
+                </p>
+            </div>
+        </div>
         `,
     },
     Welding: `
@@ -91,11 +100,13 @@ let servicesData = {
             <img src="IMAGES/welder2.jpg">
         </div>
         <div class="text-section">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Optio sed nisi quasi, nemo voluptatibus nesciunt quibusdam 
                 consequuntur perferendis porro excepturi ab quidem cumque 
                 voluptatum recusandae, saepe accusantium consectetur
-                est molestias.</p>
+                est molestias.
+            </p>
         </div>
     </div>
     <!--------------------second partion------------------>
@@ -105,11 +116,13 @@ let servicesData = {
         <img src="IMAGES/welding.jpg">
     </div>
     <div class="text-section">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Optio sed nisi quasi, nemo voluptatibus nesciunt quibusdam 
             consequuntur perferendis porro excepturi ab quidem cumque 
             voluptatum recusandae, saepe accusantium consectetur
-            est molestias.</p>
+            est molestias.
+        </p>
     </div>
     </div>
     </div>
