@@ -70,6 +70,14 @@ h3 {
     color: orange;
 }
 
+/*------------------------SOLAR CLICK LINK----------------------*/
+.solarClickLink {
+    color: orange;
+    font-weight: bold;
+}
+.solarClickLink:hover {
+    color: blue;
+}
 footer {
     margin-bottom: 50px;
 }
