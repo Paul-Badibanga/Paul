@@ -1,0 +1,80 @@
+.Price-page-conatainer {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(240, 238, 238);
+    border-radius: 10px;
+}
+.Price-page-conatainer p {
+    text-align: justify;
+}
+.Price-page-conatainer .price-container-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 4px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow-x: scroll;
+    width: 100%;
+}
+
+.Price-page-conatainer .price-container-grid {
+    
+}
+.Price-page-conatainer .price-container-grid .sub-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+    border: orange 1px solid;
+}
+.price-container-grid .sub-grid .image {
+    margin: 10px;
+}
+.Price-page-conatainer .price-container-grid img {
+    width: 100%;
+}
+
+.sub-icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub-icons input {
+    border-radius: 5px;
+    border: 2px solid orange;
+    padding: 5px;
+    color: orange;
+    background-color: white;
+    margin-right: 5px;
+    width: 120px;
+}
+.sub-icons button {
+    border-radius: 5px;
+    border: 2px solid orange;
+    padding: 5px;
+    color: orange;
+    background-color: white;
+    margin-right: 5px;
+}
+
+.price {
+    background-color: orange;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+    width: 88%;
+    text-align: center;
+}
+
+@media screen and (min-width : 977px){
+    .sub-icons {
+        justify-content: center;
+        padding-right: 0;
+    }
+}
