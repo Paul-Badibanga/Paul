@@ -37,3 +37,32 @@ solarPrices.forEach((data)=>{
 })
 
 GenerateHml.innerHTML = grids
+
+/*--------------------------Component Replacement------------------*/
+const ComponentPricing = [
+    {
+        title: 'MPPT INVERTER',
+        image: 'IMAGES/mppt-controler.png',
+    },
+    {
+        title: 'GEL BATTERY',
+        image: 'IMAGES/gel-battery.webp',
+    },
+    {
+        title: 'ACID BATTERY',
+        image: 'IMAGES/batteries.jpg',
+    }
+]
+let GenHtml = ''
+ComponentPricing.forEach((component)=> {
+    GenHtml += `
+        <div class="sub-grid">
+            <h3>${component.title}</h3>
+            <div class="image"><img src="${component.image}" alt="Solar energy kit"></div>
+
+            <div class="price">Enquire</div>
+        </div>
+    `
+})
+console.log(GenHtml)
+document.querySelector('.generateGrids').innerHTML = GenHtml
