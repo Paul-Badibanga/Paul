@@ -1,0 +1,31 @@
+h2, .Wiring {
+    color: orange;
+}
+.section ul {
+    margin-left: 30px;
+}
+.section ul li {
+    color: orange;
+}
+.section p a {
+    color: blue;
+    margin-right: 5px;
+    
+}
+.section p a:hover{
+    color: green;
+    margin-right: 5px;
+    font-weight: bold;
+}
+@media screen and (min-width : 630px){
+    .section {
+        border: none;
+    }
+    .section h2, .Wiring{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .section img{
+        height: 400px;
+    }
+}
