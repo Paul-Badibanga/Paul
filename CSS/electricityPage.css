@@ -17,6 +17,11 @@ h2, .Wiring {
     margin-right: 5px;
     font-weight: bold;
 }
+
+span {
+    color:orange;
+    font-weight: 400;
+}
 @media screen and (min-width : 630px){
     .section {
         border: none;
@@ -26,6 +31,6 @@ h2, .Wiring {
         margin-bottom: 10px;
     }
     .section img{
-        height: 400px;
+        height: 700px;
     }
 }
