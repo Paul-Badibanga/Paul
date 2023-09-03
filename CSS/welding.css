@@ -29,11 +29,6 @@ span {
 .contact-message {
     margin-top:  15px;
 }
-.galeryContainer {
-    border: solid orange 2px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
 .galeryContainer div {
     display: flex;
     flex-direction: column;
@@ -43,7 +38,7 @@ span {
     margin-bottom: 10px;
 }
 .galeryContainer div img {
-    width: 100%;
+    margin: 10px;
 }
 @media screen and (min-width : 630px){
     .section {
