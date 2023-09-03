@@ -22,6 +22,13 @@ span {
     color:orange;
     font-weight: 400;
 }
+.about-product {
+    border-left: solid orange 3px;
+    padding: 10px;
+}
+.contact-message {
+    margin-top:  15px;
+}
 @media screen and (min-width : 630px){
     .section {
         border: none;
