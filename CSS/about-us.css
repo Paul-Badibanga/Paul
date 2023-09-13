@@ -10,6 +10,7 @@
 }
 h3 {
     color: orange;
+
 }
 .aboutContainer {
     display: flex;
@@ -18,10 +19,12 @@ h3 {
     background-color: rgb(230, 227, 227);
     margin: 10px;
     border-radius: 10px;
+    padding: 10px;
 }
 .aboutText{
     padding: 10px;
     flex-basis: 45%;
+    border-left: solid orange 2px;
 }
 .aboutImage{
     flex-basis: 45%;
@@ -29,6 +32,7 @@ h3 {
 }
 .aboutImage img{
     width: 100%;
+    border-radius: 10px;
 }
 
 /*---------------------CORE VALUES-----------------------*/
@@ -36,11 +40,11 @@ h3 {
     background-color: rgb(230, 227, 227);
     border-radius: 10px;
     margin: 10px;
+    padding-top: 10px;
 }
 
 .coreContainer h2, ul, p{
     text-align: center;
-    padding-top: 10px;
 }
 
 .coreContainer ul, p{
@@ -49,8 +53,11 @@ h3 {
 .coreContainer ul li {
     margin-top: 10px;
     margin-bottom: 8px;
+    padding-top: 10px;
 }
-
+.coreValue {
+    margin-bottom: 10px;
+}
 /*---------------MEDIA QUERY---------------------*/
 @media screen and (max-width: 492px) {
     .aboutContainer {
