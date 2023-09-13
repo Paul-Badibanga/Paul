@@ -18,7 +18,7 @@ main h1 {
     gap: 10px;
 }
 .container .gridContainer .image {
-    width: 50%;
+    width: 100%;
     position: relative;
 }
 .container .gridContainer .image .date {
@@ -35,9 +35,17 @@ main h1 {
     padding-bottom: 10px;
 }
 .container .gridContainer .detailsContents {
-    width: 50%;
+    width: 100%;
     margin: 10px;
     text-align: justify;
     padding-right: 10px;
     margin-top: 0px;
+}
+@media screen and (max-width: 750px) {
+    .gridContainer {
+        width: 95%;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr;
+    }
 }
