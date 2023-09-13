@@ -4,24 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="CSS/navbar.css">
     <link rel="stylesheet" href="CSS/ServiceOption.css">
 </head>
 <body>
+    <header>
+        <div class="logo">PAULTECH ULTRA</div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="home-btn">home</a></li>
+                <li><a href="services.html">services</a></li>
+                <li><a href="#footer-section">contacts</a></li>
+                <li><a href="about-us.html">about us</a></li>
+                <li><a href="news.html">news</a></li>
+                <li><a href="faqs.html">faqs</a></li>
+            </ul>
+        </nav>
+        <div class="menu"><img src="IMAGES/menu.png" class="js-menu"></div>
+    </header>
+    <!-------------------LEFT NAVIGATION BAR------------------------------>
+    <div id="leftnav" class="js-left-nav">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li>
+                    <div class="service-btn"><a href="services.html">SERVICES</a><img src="IMAGES/expand-button-down.png" class="expand-down-btn"></div>
+                    <div id="sub-list" class="sub-list">
+                        <div>
+                            <a href="#electricity" class="electricity">Electricity<p class="elec-plus">+</p></a>
+                            <div class="sub-elec">
+                                <div><a href="solarPrices.html">Solar Energy</a></div>
+                                <div><a href="electricity.html">Alternative Energy</a></div>
+                            </div>
+                        </div>
+                        <div><a href="camera.html">CCTV installation</a></div>
+                        <div>
+                            <a href="#plumbing" class="plumbing">Plumbing<p class="plumb-plus">+</p></a>
+                            <div class="sub-plumb">
+                                <div>Home plumbing</div>
+                                <div>Industrial-Energy</div>
+                                <div>Pump installation</div>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#welding" class="welding">Welding <p class="welding-plus">+</p></a>
+                            <div class="sub-welding">
+                                <div>Home Welding</div>
+                                <div>Industrial-Welding</div>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#web-dev" class="informatics">Informatics<p class="info-plus">+</p></a>
+                            <div class="sub-info">
+                                <div>Web developpement</div>
+                                <div>Office Services</div>
+                                <div>Computer maintenance</div>
+                                <div>Phones Repairing</div>
+                                <div>AI</div>
+                            </div>
+                        </div>
+                        <div><a href="#breakLaying">Break-Laying</a></div>
+                    </div>
+                </li>
+                <li><a href="#footer-section">CONTACT US</a></li>
+                <li><a href="about-us.html">ABOUT US</a></li>
+                <li><a href="news.html">NEWS</a></li>
+                <li><a href="faqs.html">FAQS</a></li>
+            </ul>
+        </nav>
+    </div>
+
     <div class="OptionContainer">
         <div class="Grid">
-            <h2>Title</h2>
-            <div class="image">
+            <h2>Frequent Asked Questions</h2>
+            <!--<div class="image">
                 <img src="IMAGES/pannel2.jpg">
-            </div>
+            </div>-->
             <div class="ContentArea">
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                 Voluptatum sequi ratione quisquam quis inventore laboriosam
-                  sed doloremque error ullam pariatur? Accusamus qui dignissimos
-                   iure corporis? Reprehenderit placeat voluptatibus perspiciatis vitae.
+                <h3>Billing</h3>
+                <p class="question">How do I pay for electrical Installation?</p>
+                <p class="answer">
+                    Our customer is supposed to pay the half of money asked asked by the secretary 
+                    before our technicians deliver materials and start working, the last amount of
+                     money is paid after the installation is done.
                 </p>
+                <br>
+                <p class="question">Can I pay the entire amount of money asked at once before the installation is done?</p>
+                <p class="answer">
+                    Yes, you can pay the entire amount of money before if you want.
+                </p>
+                <br>
+                <p class="question">Do I have to pay cash or by card?</p>
+                <p class="answer">
+                    The payement is done through to ways, either the customer can make payment in
+                     cash or by Bank Card, it depends...
+                </p>
+                <br>
+                <p class="question">How do I pay for electrical Installation?</p>
+                <p class="answer">
+                    Our customer is supposed to pay the half of money asked asked by secretary 
+                    before our technicians deliver materials and start working
+                </p>
+
             </div>
         </div>
     </div>
 </body>
+<script src="SCRIPTS/navleft.js"></script>
 </html>
