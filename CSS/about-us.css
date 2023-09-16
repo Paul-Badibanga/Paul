@@ -59,7 +59,7 @@ h3 {
     margin-bottom: 10px;
 }
 /*---------------MEDIA QUERY---------------------*/
-@media screen and (max-width: 492px) {
+@media screen and (max-width: 792px) {
     .aboutContainer {
         flex-direction: column
     }
