@@ -32,7 +32,7 @@
                     <div class="service-btn"><a href="services.html">SERVICES</a><img src="IMAGES/expand-button-down.png" class="expand-down-btn"></div>
                     <div id="sub-list" class="sub-list">
                         <div>
-                            <a href="#electricity" class="electricity">Electricity<p class="elec-plus">+</p></a>
+                            <a href="#electricity" class="electricity">Electricity<p class="elec-plus" id="plus">+</p></a>
                             <div class="sub-elec">
                                 <div><a href="solarPrices.html">Solar Energy</a></div>
                                 <div><a href="electricity.html">Alternative Energy</a></div>
@@ -40,31 +40,27 @@
                         </div>
                         <div><a href="camera.html">CCTV installation</a></div>
                         <div>
-                            <a href="#plumbing" class="plumbing">Plumbing<p class="plumb-plus">+</p></a>
+                            <a href="#plumbing" class="plumbing">Plumbing<p class="plumb-plus" id="plus">+</p></a>
                             <div class="sub-plumb">
-                                <div>Home plumbing</div>
-                                <div>Industrial-Energy</div>
-                                <div>Pump installation</div>
-                            </div>
+                                <div><a href="plumbing.html">Home plumbing</a></div>
+                                                                    </div>
                         </div>
                         <div>
-                            <a href="#welding" class="welding">Welding <p class="welding-plus">+</p></a>
+                            <a href="#welding" class="welding">Welding <p class="welding-plus" id="plus">+</p></a>
                             <div class="sub-welding">
-                                <div>Home Welding</div>
-                                <div>Industrial-Welding</div>
+                                <div><a href="welding.html">Home & Industrial Welding</a></div>
                             </div>
                         </div>
                         <div>
-                            <a href="#web-dev" class="informatics">Informatics<p class="info-plus">+</p></a>
+                            <a href="#web-dev" class="informatics">Informatics<p class="info-plus" id="plus">+</p></a>
                             <div class="sub-info">
-                                <div>Web developpement</div>
-                                <div>Office Services</div>
-                                <div>Computer maintenance</div>
-                                <div>Phones Repairing</div>
+                                <div><a href="informatics.html">IT Services</a></div>
+                                <div><a href="Maintenance.html">Computer maintenance</a></div>
+                                <div><a href="Maintenance.html#PhoneRepair">Phones Repairing</a></div>
                                 <div>AI</div>
                             </div>
                         </div>
-                        <div><a href="#breakLaying">Break-Laying</a></div>
+                        <div><a href="breaklaying.html">Break-Laying</a></div>
                     </div>
                 </li>
                 <li><a href="#footer-section">CONTACT US</a></li>
@@ -110,19 +106,20 @@
 
         <!------------------------FOOTER------------------------->
         <footer id="footer-section">
-            <h3 class="intouch">Get in touch with us:</h3>
+            <h2 class="intouch">Get in touch with us:</h2>
             <div class="footer-container">
-                <!--<div class="serviceList">
+                <div class="serviceList">
                     <h3>Our Services</h3>
                     <ul>
-                        <li><a href="#">Electricity</a></li>
-                        <li><a href="#">Plumbing</a></li>
-                        <li><a href="#">Welding</a></li>
-                        <li><a href="#">Computer & Smartphone maintenance</a></li>
-                        <li><a href="#">Web developpement</a></li>
+                        <li><a href="electricity.html">Electricity</a></li>
+                        <li><a href="plumbing.html">Plumbing</a></li>
+                        <li><a href="welding.html">Welding</a></li>
+                        <li><a href="Maintenance.html">Computer & Smartphone maintenance</a></li>
+                        <li><a href="informatics.html">Web developpement</a></li>
+                        <li><a href="solarPrices.html">Solar Energy</a></li>
                     </ul>
-                </div>-->
-
+                </div>
+    
                 <div class="Contacts">
                     <div class="network">
                         <h3>Contacts</h3>
@@ -167,22 +164,32 @@
                         <button id="btn">Send</button>
                     </form>
                 </div>
-
+    
                 <div class="adress">
-                    <h3>Adress</h3>
-                    <Map>
-                        Lorem ipsum dolor, sit amet consectetur
-                         adipisicing elit. Dolores aut,
-                         dolorum numquam architecto fuga,
-                    </Map>
+                    <h3>We are available in :</h3>
+                    <h4>South Africa</h4>
+                    <li>Johanesburg</li>
+                    <li>Pretoria</li>
+                    <li>Cape Town</li>
+                    <li>Durban</li>
+                    <h4>D.R.Congo</h4>
+                    <li>Kinshasa</li>
+                    <li>Lubumbashi</li>
+                    <li>Lualaba</li>
+                    <li>Mbujimayi</li>
+                    <li>Mwena-Ditu</li>
+                    <li>Kisangani</li>
+                    <li>Tanganyika etc.</li>
                 </div>
-
-                
+    
+        
             </div>
         </footer>
+        <div class="right"><p>©copyright reserved <span class="date" id="dateColor"></span>|PAULTECH-ULTRA|All rights reserved</p></div>
     </main>
 
     <script src="SCRIPTS/navleft.js"></script>
     <script src="SCRIPTS/welding-data.js"></script>
+    <script src="SCRIPTS/dateUpdate.js"></script>
 </body>
 </html>
