@@ -40,13 +40,14 @@ header ul li a:hover {
     color: orange;
     border-radius: 5px;
 }
-.home-btn {
+/*.home-btn {
     border-color: white;
     border-style: solid;
     border-width: 1px;
     padding: 5px 5px;
     border-radius: 5px;
 }
+*/
 .menu {
     flex-basis: 25px;
     display: none;
