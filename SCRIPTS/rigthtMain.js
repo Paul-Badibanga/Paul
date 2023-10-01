@@ -4,7 +4,7 @@ let bodyEl = document.getElementById("body")
 
 console.log(contact.innerHTML)
 contact.addEventListener('click', (e)=> {
-    alert("Let's Talk" )
+    alert("We'll be happy to read your message !" )
     bodyEl.innerHTML = `
                 <header>
                     <div class="logo">PAULTECH ULTRA</div>
