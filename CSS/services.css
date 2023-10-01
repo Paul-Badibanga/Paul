@@ -5,8 +5,10 @@
     margin: 0px;
     width: 100%;
 }
-h1 {
+.title {
+    margin-top: 50px;
     margin-left: 10px;
+    color: orange;
 }
 
 .services-section {
@@ -84,7 +86,7 @@ footer {
 
 /*------------------------------MEDIAS QUERIES-------------------------------------*/
 
-@media screen and (max-width : 551px){
+@media screen and (max-width : 1240px){
     /*-------------------display service-images flex column--------------------*/
     .section-grid {
         flex-direction: column;
