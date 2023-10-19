@@ -349,6 +349,11 @@ main .image-container {
     background-color: rgba(238, 234, 234, 0.959);
     border-radius: 10px;
 }
+.testemonyContainerGrids {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+} 
 .sectionOne {
     display: flex;
     flex-direction: column;
@@ -356,9 +361,8 @@ main .image-container {
     justify-content: center;
     background-color: white;
     border-radius: 10px;
-    width: 90%;
-    margin: 5%;
     box-shadow: 0px 3px 4px 3px rgba(0, 0, 0, 0.3);
+    padding: 10px;
 }
 .testemonyContainer h2 {
     padding-top : 10px;
@@ -369,6 +373,18 @@ main .image-container {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.profileTestmony i {
+    font-size: 70px;
+    color: orange;
+    margin-top: 10px;
+    border: solid orange 5px ;
+    border-radius: 50%;
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+}
 .sectionOne img {
     width: 100px;
     height: 100px;
@@ -522,6 +538,7 @@ footer .footer-container {
     .sectionOne {
         margin-right: 10px;
     }
+
 }
 
 @media screen and (max-width: 688px){
@@ -533,6 +550,10 @@ footer .footer-container {
         display: block;
         cursor: pointer;
     }
+
+    /*.testemonyContainerGrids {
+        flex-direction: column;
+    }*/
     /*-------------FOOTER---------------------*/
     footer .footer-container {
         display: grid;
@@ -585,9 +606,11 @@ footer .footer-container {
     }
 }
 @media screen and (max-width : 588px){
-    .testemonyContainer .grid {
-        grid-template-columns: 1fr;
+    .testemonyContainerGrids {
+        flex-direction: column;
     }
+
+
 }
 
 @media screen and (max-width : 511px){
@@ -623,10 +646,11 @@ footer .footer-container {
         
     }
 }
-.right {
+.right p{
     font-size: 14px;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
     background-color: orange;
+    text-align: center
 }
